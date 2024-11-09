@@ -1,8 +1,7 @@
 import React from "react";
 
 
-import { FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
-import { SiVercel } from "react-icons/si";
+
 import Image from "next/image";
 import "../style/style.css"
 
@@ -32,42 +31,42 @@ function skills() {
 
     <div className="skills-grid">
       <div className="skill-card">
-        <img src="/HTml.jpeg" alt="HTML" className="skill-image" />
+        <Image src="/HTml.jpeg" alt="HTML" className="skill-image" />
         <div className="skill-overlay">
           <p className="skill-name">HTML</p>
         </div>
       </div>
 
       <div className="skill-card">
-        <img src="/css.jpeg" alt="CSS" className="skill-image" />
+        <Image src="/css.jpeg" alt="CSS" className="skill-image" />
         <div className="skill-overlay">
           <p className="skill-name">CSS</p>
         </div>
       </div>
 
       <div className="skill-card">
-        <img src="/js.jpeg" alt="JavaScript" className="skill-image" />
+        <Image src="/js.jpeg" alt="JavaScript" className="skill-image" />
         <div className="skill-overlay">
           <p className="skill-name">JavaScript</p>
         </div>
       </div>
 
       <div className="skill-card">
-        <img src="/next.jpeg" alt="Next.js" className="skill-image" />
+        <Image src="/next.jpeg" alt="Next.js" className="skill-image" />
         <div className="skill-overlay">
           <p className="skill-name">Next.js</p>
         </div>
       </div>
 
       <div className="skill-card">
-        <img src="/figma.jpeg" alt="Figma" className="skill-image" />
+        <Image src="/figma.jpeg" alt="Figma" className="skill-image" />
         <div className="skill-overlay">
           <p className="skill-name">Figma</p>
         </div>
       </div>
 
       <div className="skill-card">
-        <img src="/image.png" alt="Additional Skill" className="skill-image" />
+      <Image src="/image.png" alt="Additional Skill" className="skill-image" />
         <div className="skill-overlay">
           <p className="skill-name">Tailwind CSS</p>
         </div>
@@ -80,7 +79,7 @@ function skills() {
 <footer className="footer">
     <div className="footer-content">
       <div className="footer-logo">
-        <img src="/Web logo.png" alt="Logo" width="123" height="110"/>
+        <Image src="/Web logo.png" alt="Logo" width="123" height="110"/>
       </div>
       <div className="contact-info">
         <p><strong>Address:</strong> Karachi, Pakistan</p>

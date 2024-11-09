@@ -1,7 +1,6 @@
 import React from "react";
 
-import { FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
-import { SiVercel } from "react-icons/si";
+
 import Image from "next/image";
 import "../style/style.css"
 function Aboutme() {
@@ -24,7 +23,7 @@ function Aboutme() {
 
 <section className="about">
   <div className="image-container">
-    <img src="My Image.jpeg" alt="image" className="profile-image"/>
+    <Image src="My Image.jpeg" alt="image" className="profile-image"/>
   </div>
   <div className="content">
     <h1>About Me</h1>
@@ -68,7 +67,7 @@ function Aboutme() {
 <footer className="footer">
     <div className="footer-content">
       <div className="footer-logo">
-        <img src="/Web logo.png" alt="Logo" width="123" height="110"/>
+        <Image src="/Web logo.png" alt="Logo" width="123" height="110"/>
       </div>
       <div className="contact-info">
         <p><strong>Address:</strong> Karachi, Pakistan</p>

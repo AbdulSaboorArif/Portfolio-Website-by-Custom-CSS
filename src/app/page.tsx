@@ -1,6 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaYoutube, FaGithub} from 'react-icons/fa';
-import { SiVercel } from "react-icons/si";
+
 import Image from "next/image";
 import "../app/style/style.css"
 function MYPortfolio () {
@@ -44,7 +43,7 @@ function MYPortfolio () {
 <footer className="footer">
     <div className="footer-content">
       <div className="footer-logo">
-        <img src="/Web logo.png" alt="Logo" width="123" height="110"/>
+        <Image src="/Web logo.png" alt="Logo" width="123" height="110"/>
       </div>
       <div className="contact-info">
         <p><strong>Address:</strong> Karachi, Pakistan</p>
